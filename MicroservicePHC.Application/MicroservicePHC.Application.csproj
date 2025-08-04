@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="EntityExample\Events\" />
+    <Folder Include="EntityExample\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroservicePHC.Domain\MicroservicePHC.Domain.csproj" />
+    <ProjectReference Include="..\MicroservicePHC.Infrastructure\MicroservicePHC.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

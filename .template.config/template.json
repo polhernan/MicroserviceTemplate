@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Pol Hernan",
+  "classifications": [ "Microservice", "DDD", "CQRS" ],
+  "identity": "Servu.Microservice.Template",
+  "name": "Servu Microservice",
+  "shortName": "microtemplate",
+  "sourceName": "MicroservicePHC",
+  "preferNameDirectory": true,
+  "symbols": {
+    "MicroserviceName": {
+      "type": "parameter",
+      "defaultValue": "MicroservicePHC",
+      "description": "Nombre del microservicio",
+      "replaces": "MicroservicePHC"
+    }
+  }
+}
