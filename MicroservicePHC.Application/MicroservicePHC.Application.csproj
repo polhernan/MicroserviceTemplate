@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Mapping\" />
+    <Folder Include="Common\Models\" />
     <Folder Include="EntityExample\Events\" />
     <Folder Include="EntityExample\Queries\" />
   </ItemGroup>
