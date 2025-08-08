@@ -43,7 +43,7 @@ dotnet new install ./
 2. **Genera un nuevo microservicio:**
 
 ```bash
-dotnet new microservice -n NombreDelMicroservicio
+dotnet new microtemplate -n NombreDelMicroservicio
 ```
 
 3. **Levanta el entorno de desarrollo completo:**
